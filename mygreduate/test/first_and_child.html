@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试first和first-child的区别</title>
+    <script src="jquery-3.1.0.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<ul>
+    <li class="fir_fir">11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+
+
+</ul>
+
+<ul>
+    <li class="se_fir">21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+
+
+
+    <script>
+        console.log("fisrt",$("ul>li:first"));
+
+        console.log("fisrt-child",$("ul>li:first-child"));
+
+
+    </script>
+</ul>
+
+</body>
+</html>

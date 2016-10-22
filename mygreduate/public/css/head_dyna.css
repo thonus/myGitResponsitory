@@ -1,0 +1,112 @@
+/*这个样式文件定义所有头部导航的动画*/
+
+/*此处定义添加记录的导航的动画-------------------------*/
+
+@-webkit-keyframes reco_add_on {
+    0%{}
+    90%{transform: rotate(-10deg);-webkit-transform:rotate(-10deg);}
+    100%{transform: rotate(0deg);-webkit-transform:rotate(0deg);}
+}
+@-moz-keyframes reco_add_on{
+    0%{}
+    90%{transform: rotate(-10deg);-webkit-transform:rotate(-10deg);}
+    100%{transform: rotate(0deg);-webkit-transform:rotate(0deg);}
+}
+
+@keyframes reco_add_on{
+    0%{}
+    90%{transform: rotate(-10deg);-webkit-transform:rotate(-10deg);}
+    100%{transform: rotate(0deg);-webkit-transform:rotate(0deg);}
+}
+
+/*消失*/
+@-webkit-keyframes reco_add_off {
+    0%{transform: rotate(0deg);-webkit-transform:rotate(0deg);}
+
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+@-moz-keyframes reco_add_off {
+    0%{transform: rotate(0deg);-webkit-transform:rotate(0deg);}
+    /*80%{transform: rotate(45deg);-webkit-transform:rotate(45deg);}*/
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+@keyframes reco_add_off {
+    0%{transform: rotate(0deg);-webkit-transform:rotate(0deg);}
+
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+
+/**此处定义数据统计导航的动画------------------------*/
+@-webkit-keyframes to_statistic_on{
+    0%{}
+    100%{transform: rotate(-45deg);-webkit-transform:rotate(-45deg);}
+}
+@-moz-keyframes to_statistic_on{
+    0%{}
+    100%{transform: rotate(-45deg);-webkit-transform:rotate(-45deg);}
+}
+
+@keyframes to_statistic_on{
+    0%{}
+    100%{transform: rotate(-45deg);-webkit-transform:rotate(-45deg);}
+}
+
+/*消失*/
+@-webkit-keyframes to_statistic_off{
+    0%{transform: rotate(-45deg);-webkit-transform:rotate(-45deg);}
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+@-moz-keyframes to_statistic_off{
+    0%{transform: rotate(-45deg);-webkit-transform:rotate(-45deg);}
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+@keyframes to_statistic_off{
+    0%{transform: rotate(-45deg);-webkit-transform:rotate(-45deg);}
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+
+/*此处定义用户详情的导航的动画*/
+@-webkit-keyframes to_userinfo_on{
+    0%{}
+    60%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+    80%{transform: rotate(-80deg);-webkit-transform:rotate(-80deg);}
+    100%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+}
+@-moz-keyframes to_userinfo_on{
+    0%{}
+    60%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+    80%{transform: rotate(-80deg);-webkit-transform:rotate(-80deg);}
+    100%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+}
+
+@keyframes to_userinfo_on{
+    0%{}
+    60%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+    80%{transform: rotate(-80deg);-webkit-transform:rotate(-80deg);}
+    100%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+}
+
+
+/*消失*/
+
+@-webkit-keyframes to_userinfo_off{
+    0%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+@-moz-keyframes to_userinfo_off{
+    0%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+
+@keyframes to_userinfo_off{
+    0%{transform: rotate(-90deg);-webkit-transform:rotate(-90deg);}
+    100%{transform: rotate(90deg);-webkit-transform:rotate(90deg);}
+}
+

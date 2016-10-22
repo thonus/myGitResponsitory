@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生的下拉框测试</title>
+</head>
+<body>
+
+<style>
+    /*select{*/
+        /*font-size: 2.5rem;*/
+        /*color: #00B7FF;*/
+    /*}*/
+
+    /*select:hover option{*/
+        /*color: white;*/
+
+    /*}*/
+
+    section{
+        text-align: justify;
+        /*display: block;*/
+        display: inline-block;
+        width: 100%;
+
+
+    }
+
+
+    section:after{
+        display: inline-block;
+        width: 100%;
+        height: 0px;
+
+        border: 4px solid;
+        content: " ";
+        /*display: none;*/
+        visibility: hidden;
+        line-height: 0px;
+    }
+
+    section:after span{
+        display: inline-block;
+        width: 100%;
+        height: 0px;
+        background-color: #1abc9c;
+        border: 4px solid;
+        content: " ";
+        /*display: none;*/
+        visibility: hidden;
+        line-height: 0px;
+
+
+    }
+
+    p{
+        display: inline-block;
+        width: 20%;
+        height: 100px;
+        background-color: #1abc9c;
+        border: 4px solid;
+
+
+    }
+
+
+</style>
+
+<select>
+    <option>广周</option>
+    <option>深圳</option>>
+    <option>上海</option>
+
+</select>
+
+<br/>
+
+<section><br/>
+
+    <span>qwer</span>
+    <span>qwerwer</span>
+    <span>qwers</span>
+    <span>qwedgfdhr</span>
+    <span>qwer</span>
+
+
+
+
+
+
+
+
+</section>
+
+
+</body>
+</html>

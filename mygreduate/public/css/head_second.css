@@ -1,0 +1,194 @@
+@media screen and (max-width: 767px) {
+
+    /*手机屏幕越小，根字体越小.........为何这个样式不加载,上面的样式都加载了*/
+    html {
+        /* 767px往后是每减少100像素2px减少 */
+        font-size: calc(16px - 1.5 * (767px - 100vw) / 100);
+    }
+
+    /*手机视图下的li的字体大小*/
+    .user>ul >li{
+        font-size: 2rem!important;
+
+
+    }
+    .user>ul{
+        width: 12rem!important;
+    }
+
+
+}
+
+@media screen and (min-width: 1060px) {
+    html {
+        /* 1000px往后是每100像素2px增加 */
+        font-size: calc(16px + 2 * (100vw - 1060px) / 100);
+    }
+
+}
+/*and(min-width:767px)*  767到1060，字体不变*/
+@media screen and (min-width: 767px) and (max-width: 1060px){
+
+    html {
+
+        font-size: 16px;
+
+    }
+
+}
+
+html{
+    /*font-size: 16px!important;*/
+}
+
+body{
+
+    margin: 0px 0px;
+    padding: 0px 0px!important;
+    text-align: center;
+    background-color:#1abc9c ;
+    /*border-top: 1px solid;*/
+
+    min-height: 100vh;
+    /*动画需要溢出隐藏......不行，这样会影响其他样式*/
+    /*overflow: hidden;*/
+    color: #190e0c;
+}
+
+header{
+    /*height: 5rem;*/
+    /*line-height: 5rem;*/
+    width: 100%;
+    background-color: #107360;
+    text-align: right;
+    position: relative;
+    font-size: 0px;
+    /*去掉bootstrap带来的margin*/
+    margin: 0px 0px!important;
+    vertical-align: top;
+
+
+}
+
+/*logo的样式*/
+header >img{
+    width: auto;
+    height: 5rem;
+    /*position: absolute;*/
+    /*left:0rem;*/
+    float: left;
+
+}
+
+/*显示用户名的button的样式*/
+.user{
+    display: inline-block;
+    /*position: relative;*/
+    /*padding-right: 0.625rem;*/
+    width: 5rem;
+    height: 5rem;
+
+    /*line-height: 0rem;*/
+    text-align:center;
+    background-color: #107360;
+    color: inherit;
+    /*font-weight:bold;*/
+
+    cursor: pointer;
+    /*border-radius: 50%;*/
+    /*border: 1px solid red;*/
+    padding:0px 0px;
+    margin: 0px 0px;
+    margin-right: 0.8rem;
+
+
+}
+
+
+
+
+/*头像hover显示ul*/
+.user:hover ul{
+    display: block;
+
+}
+
+
+/*设置nav下的img的样式*/
+.user>#img_wra>img{
+    width: auto;
+    height:100%;
+    /*border-radius: 50%;*/
+
+}
+
+/*头像包裹层的样式*/
+#img_wra{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*定义ul的样式*/
+.user>ul{
+    position: absolute;
+    right: 0px;
+    padding-left: 0px;
+    background-color: #107360;
+    color: white;
+    z-index: 1;
+    width: 8rem;
+    border-radius: 0px 0px 4px 4px;
+    display: none;
+
+
+;
+}
+
+/*测试子元素的伪类是否能影响父元素*/
+
+
+/*去掉ul下的li的点list-style*/
+.user>ul >li{
+
+    list-style: none;
+    font-size: 1rem;
+    color: #969696;
+    letter-spacing: 2px;
+}
+
+.user>ul >li:hover{
+    color: white;
+
+
+}
+
+.user>ul >li:hover i{
+    color: #44a1f2;
+}
+
+
+/*设置ul的li中的图标的样式*/
+.user>ul>li img{
+    height: 1rem;
+    width: auto;
+
+}
+
+.user>ul>li a,.user>ul>li i{
+    text-decoration: none;
+    color: inherit;
+
+
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../picture/logo_icon.gif" rel="icon" />
+		<title>添加记录</title>
+
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+        <script src="../js/recorder_add.js" type="text/javascript"></script>
+		<script src="../js/select_bueatify.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/recorde_add.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/recorde_add_dyna.css"/>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/tips.js" type="text/javascript"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+
+	</head>
+	<body class="container-fluid">
+		<!--<header class="row">-->
+			<!--<img class="hidden-xs" src="../picture/recorde2.gif"/>-->
+			<!--<button class="user">用户名</button>-->
+		<!--</header>-->
+		<%-
+		include head_second.ejs
+		%>
+		<nav class="row col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+			<button id="topLeft_btn" class="top topLeft col-xs-12 col-sm-5 col-md-5 col-lg-5" >批量记账</button>
+			<button id="topRight_btn" class="top topRight col-xs-12 col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2" >模板记账</button>
+			<button id="bottom" class="bottom col-xs-12 " >快速记账</button>
+		</nav>
+		
+		<section id="topLeft_sec" class="row">
+			<div class="wrap col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+				<form style="display: none">
+				<input name="excel" id="excel_input" type="file" accept="application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+				</form>
+				<div class="formDiv">
+					类型：
+					<select id="selectType" class="selectType">
+					   <option value="交通工具" selected="selected" >交通工具</option>
+					   <option value="饮食">饮食</option>
+					   <option value="买衣服">买衣服</option>
+					   <option value="房租">房租</option>
+					   <option value="收入">收入</option>
+					</select>
+				</div>
+
+				<div class="formDiv">
+					金额：
+					<input type="text" id="inputMoney" class="inputMoney" />
+					<!--此处用图标来上传excel表格-->
+					<!--<img id="excel_input_img" src="/picture/up_pic.gif"/>-->
+				</div>
+				<div class="formDiv">
+					<input id="topLeft_sub" type="submit" class="sub" value="确认" />
+					<!--<img id="excel_input_img" src="/picture/excel.gif"/>-->
+					<i id="excel_input_img" class="icon-table"></i>
+				</div>
+			</div>
+			<div class="exitDiv" id="topLeft_sec_exit">
+				<img src="../picture/exit.png"/>
+
+			</div>
+			
+		</section>
+		
+		<section id="topRight_sec" class="row">
+			<div class="wrap  col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+				<!--在这里添加一个退出的div-->
+					<div class="exit_section"><i class="icon-circle-arrow-left"></i></div>
+
+					<ul id="ul_add_module" class="moudleUl row">
+						<li id="add_li" class="moudleLi col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<img src="/picture/record_add.png"/>
+						</li>
+						<!--<li class="moudleLi col-xs-6 col-sm-4 col-md-4 col-lg-4"></li>-->
+						<!--<li class="moudleLi col-xs-6 col-sm-4 col-md-4 col-lg-4"></li>-->
+						<!--<li class="moudleLi col-xs-6 col-sm-4 col-md-4 col-lg-4"></li>-->
+						<!--<li class="moudleLi col-xs-6 col-sm-4 col-md-4 col-lg-4"></li>-->
+						<!--<li class="moudleLi col-xs-6 col-sm-4 col-md-4 col-lg-4"></li>-->
+					</ul>
+				<!--</div>-->
+				
+				<!--<div class="formDiv">-->
+					<!--<input type="submit" class="sub" value="确认" />-->
+				<!--</div>-->
+			</div>
+			<!--修改，原先的退出的布局不要了-->
+			<!--<div class="exitDiv moudle_exit" id="topRight_sec_exit">-->
+				<!--<img src="../picture/exit.png"/>-->
+			<!--</div>-->
+			<!--<div class="newMoudle" id="newMoudle"></div>-->
+			
+		</section>
+		
+		<section id="sectionFast" class="row">
+			<div class="wrap  col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+				<!--快速记账退出界面的，另一种布局-->
+				<div class="exit_section"><i class="icon-circle-arrow-left"></i></div>
+				  <div class="formDiv">
+					类型：
+					<select id="selectTypeF" class="selectType">
+					   <option value="交通工具" >交通工具</option>
+					   <option value="饮食" selected="selected">饮食</option>
+					   <option value="买衣服">买衣服</option>
+					   <option value="房租">房租</option>
+					   <option value="收入">收入</option>
+					</select>
+				</div>
+				<div class="formDiv">
+					金额：
+					<input type="text" id="inputMoneyF" class="inputMoney" />
+				</div>
+				<div class="formDiv">
+					<input id="recorde_fast_sub" type="submit" class="sub" value="确认" />
+				</div>
+				
+			</div>
+			<!--快速记账退出的第一版本的布局，现在注释掉-->
+			<!--<div class="exitDiv" id="sectionFast_exit">-->
+				<!--<img src="../picture/exit.png"/>-->
+			<!--</div>-->
+		</section>
+
+		<!--新建模板的aside,这个article是用来做遮羞布-->
+		<article></article>
+		<aside class="">
+				<input type="text" placeholder="类型"/><br>
+				<input type="text" placeholder="金额"/><br>
+				<input type="button" value="确认"/>
+
+		</aside>
+
+		<!--<footer class="hidden-xs" ></footer>-->
+	</body>
+</html>

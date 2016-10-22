@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=1920">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <!--指定ie的版本-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../picture/logo_icon.gif" rel="icon" />
+    <title>记录您花钱的点滴</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+
+    <!--<link rel="stylesheet" type="text/css" href="../css/phone_screeen.css" media="screen and (max-width:800px)"/>-->
+    <!--  引入bootstrap-->
+    <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>-->
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/login.js"></script>
+    <!--[if lte IE 9]>
+    <script src="js/respond.min.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+
+
+</head>
+<body class="container-fluid">
+
+<!--背景图，其大小与HTML一样 -->
+<div id="layBg" class="layBg row">
+    <img id="bgImg" src="../picture/bg.jpg" class="col-lg-12" />
+
+</div>
+<div class="row row_mid">
+
+<!--<div class="col-lg-6">1111</div>-->
+
+<div class="row wrapAll col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2  col-sm-8 col-sm-offset-2 ">
+    <form action="/login" method="post" name="">
+        <div class="wrap">
+            <div class="logo">
+                <!--<div class="imgLogoDiv">-->
+                    <img class="imgLogo" src="../picture/logo-1.gif" />
+                <!--</div>-->
+                <span> 记录您花钱的点滴</span>
+            </div>
+            <div class="login col-xs-12 col-sm-12  col-md-7 col-md-offset-5 col-lg-7 col-log-5  ">
+                <div class="dynaticImg"></div>
+                <div class="divTips"><span id="tipIcon" class="tipIcon"></span><span id="tipText" class="tipText"></span> </div>
+
+                <div class="divInput">
+                    <div class="divOneInput">
+                        <!--<label class="acountTips" for="inputText">用户名/账号/手机号</label>-->
+                        <!--<a class="deIcon"></a>-->
+                        <input type="text" id="inputText"   class="inputText" name="acount" placeholder="用户名/账号/手机号" />
+                    </div>
+                    <div class="divOneInput">
+                        <!--<label class="acountTips" for="inputPwd">密码</label>-->
+                        <input type="password" id="inputPwd"  class="inputText" name="pwd" placeholder="密码" />
+                    </div>
+
+                    <input id="btnsub" type="submit" class="btnSub" value="登录" />
+
+                </div>
+                <span class="spanBo"><a href="#">忘了密码？</a> | <a href="/register">注册新账号</a> | <a href="#">用户反馈</a> </span>
+            </div>
+
+        </div>
+    </form>
+    <div class="footer ">
+						<span>
+							<a href="#">关于我们</a> |
+							<a href="#">反馈建议</a> |
+							<a href="#">隐私保护</a> |
+							<a href="#">免责声明</a> |
+							<a href="#">联系我们</a>
+						</span><br />
+						<span>
+							Copyriight © 2016-2020 Money.All Right.Deserved
+						</span>
+
+    </div>
+</div>
+    <!--<div class="col-lg-8">22222</div>-->
+</div>
+</body>
+</html>

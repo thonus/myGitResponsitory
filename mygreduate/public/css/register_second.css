@@ -1,0 +1,61 @@
+@media screen and (max-width: 767px) {
+    /*手机视图的样式*/
+    article>input[type='text'],article>input[type='button'],article>input[type='password']{
+        width: 90vw;
+        font-size: 3rem;
+    }
+
+
+}
+
+
+body{
+    min-height: 100vh;
+    /*搞个颜色渐变*/
+    background: -moz-linear-gradient(top,#107360,#a9d8f6);
+    background: -webkit-linear-gradient(top,#107360,#a9d8f6);
+    padding: 0px 0px!important;
+}
+
+article{
+    text-align: center;
+    /*去掉bootstrap中带来的padding*/
+    padding: 0px 0px!important;
+
+
+}
+
+/*设置logo的样式*/
+article>img{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    /*触发bfc不让float的img影响到nav*/
+    overflow: hidden;
+
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+    border-bottom:2px solid deepskyblue;
+}
+/*定义input的样式*/
+article>input[type='text'],article>input[type='button'],article>input[type='password']{
+    width: 80%;
+    font-size: 3rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+
+}
+
+/*确认按钮的样式*/
+input[type='button']{
+    color: white;
+    font-weight: bold;
+    background-color: #24a04a;
+    border: 0px;
+    border-radius: 10%;
+}
+
+

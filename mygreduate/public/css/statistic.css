@@ -1,0 +1,190 @@
+@media screen and (max-width: 767px){
+	/*手机视图*/
+	svg{
+		height: 80vh!important;
+	}
+
+	.record_section{
+		height: 100vw!important;
+	}
+
+
+}
+
+/*电脑视图*/
+@media screen and(min-width: 1000px){
+	p{
+		transform: translate(300,200);
+
+	}
+}
+
+body{
+	/*去掉bootstrap带来的内边距*/
+	padding: 0px 0px!important;
+	font-size: 1.5rem;
+	background: -moz-linear-gradient(top,#107360,#a9d8f6);
+	background: -webkit-linear-gradient(top,#107360,#a9d8f6);
+}
+
+.wrap{
+    /*width: 800px;*/
+    /*height: 600px;*/
+    background-color: #107360;
+
+    /*margin: 0px auto; 	*/
+	/*消除bootstrap带来的内边距*/
+	padding: 0px 0px;
+}
+
+/*定义统计界面的导航*/
+.staNav{
+	
+	/*background-color: brown;*/
+	height: 15%;
+	/*font-size: 1rem;*/
+	/*margin-bottom: 20px;*/
+	/*去掉bootstrap的row带来的margin负值*/
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+/*统计栏的cusor*/
+.wrap>nav>div{
+	cursor: pointer;
+
+}
+
+/*按月统计的div*/
+.staByMonth{
+	
+	display: inline-block;
+	/*width: 20%;*/
+	/*height: 100%;*/
+    background-color: cadetblue;
+    /*margin: 0px 10px;*/
+    text-align: center;
+	margin-left: 4px;
+}
+
+/*预测*/
+.staPredict{
+	
+	/*float: right;*/
+	/*width: 20%;*/
+	/*height: 100%;*/
+    background-color: cadetblue;
+    /*margin: 0px 10px;*/
+    text-align: center;
+	margin-left: 4px;
+}
+
+
+/*按年统计的div*/
+.staByYear{
+	
+	display: inline-block;
+	/*width: 20%;*/
+	/*height: 100%;*/
+    background-color: cadetblue;
+    /*margin: 0px 10px;*/
+    text-align: center;
+
+
+}
+
+
+
+/**/
+.staSection{
+
+
+	background-color: #eeeaff;
+	overflow: hidden;
+	
+}
+
+/*图表的包裹层*/
+svg{
+	background-color: #eeeaff;
+	width: 100%;
+	height: 70vh;
+	text-align: center;
+	position: relative;
+
+}
+
+svg>g{
+	/*position: absolute;*/
+	width: 50%;
+	margin: 0px auto;
+
+
+}
+
+/*显示记录的section的样式*/
+.record_section{
+
+	/*background-color: #2b542c;*/
+	background-color:#eeeaff;
+	height: 40vw;
+	overflow: auto;
+	position: relative;
+
+}
+
+/*获取颜色*/
+h1{
+	background-color: #ff0c87;
+
+}
+
+/*path的样式*/
+path{
+	transition: all 0.5s ease-in-out 0s;
+
+}
+path:hover{
+
+	transform: scale(1.1);
+
+}
+
+/*定义鼠标移动到圆饼图的出现的提示框的样式*/
+.create_tips{
+	background-color: #acebed;
+	display: none;
+	position: fixed;
+	border-radius: 50%;
+	width: 6rem;
+	height: 7rem;
+	text-align: center;
+	font-size: 2rem;
+	overflow: hidden;
+}
+
+/*定义饼状图的提示信息中的第一个p的样式*/
+.p_f{
+	background-color: #ff5bd1;
+
+}
+
+/*定义table的样式*/
+table{
+	width:100%;
+	text-align: center;
+	/*font-size: 20px;*/
+
+}
+
+table >th{
+	text-align: center;
+}
+
+table tr{
+	position: relative;
+
+}
+
+
+

@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/routes/record_add_router.js" line="48" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fef385b5-523c-4389-8972-4d71ee54295c" name="Default" comment="" />
+    <ignored path="mygreduate.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mygreduate" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statis_router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/statis_router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="205" column="18" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="18" />
+              <folding>
+                <element signature="e#483#719#0" expanded="false" />
+                <element signature="e#811#963#0" expanded="false" />
+                <element signature="e#1053#1923#0" expanded="false" />
+                <element signature="e#2017#2805#0" expanded="false" />
+                <element signature="e#2950#3059#0" expanded="false" />
+                <element signature="e#3159#3288#0" expanded="false" />
+                <element signature="e#3820#4278#0" expanded="false" />
+                <element signature="e#4385#5337#0" expanded="false" />
+                <element signature="n#!!block;n#sele_byyear#0" expanded="false" />
+                <element signature="n#!!block;n#sele_byyear_and_income#0" expanded="false" />
+                <element signature="n#!!block;n#sele_bymonth#0" expanded="false" />
+                <element signature="n#!!block;n#sele_bymonth_and_income#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_second.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/login_second.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.508772">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head_second.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/head_second.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.9428573">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/css/register_second.css" />
+        <option value="$PROJECT_DIR$/routes/register_router.js" />
+        <option value="$PROJECT_DIR$/views/userinfo.html" />
+        <option value="$PROJECT_DIR$/models/user_model.js" />
+        <option value="$PROJECT_DIR$/routes/userinfo_router.js" />
+        <option value="$PROJECT_DIR$/views/head.ejs" />
+        <option value="$PROJECT_DIR$/public/css/head.css" />
+        <option value="$PROJECT_DIR$/routes/head_router.js" />
+        <option value="$PROJECT_DIR$/test/jq_test.html" />
+        <option value="$PROJECT_DIR$/test/excel_parser.js" />
+        <option value="$PROJECT_DIR$/views/head_second.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/js/head_second.js" />
+        <option value="$PROJECT_DIR$/test/and_juge_eq.js" />
+        <option value="$PROJECT_DIR$/test/pubu.js" />
+        <option value="$PROJECT_DIR$/views/statistic.ejs" />
+        <option value="$PROJECT_DIR$/routes/record_add_router.js" />
+        <option value="$PROJECT_DIR$/routes/parser_by_formi.js" />
+        <option value="$PROJECT_DIR$/views/head_second.ejs" />
+        <option value="$PROJECT_DIR$/test/d3_test.css" />
+        <option value="$PROJECT_DIR$/public/css/footer.css" />
+        <option value="$PROJECT_DIR$/public/js/tips.js" />
+        <option value="$PROJECT_DIR$/public/js/select_bueatify.js" />
+        <option value="$PROJECT_DIR$/public/js/water_fall.js" />
+        <option value="$PROJECT_DIR$/public/css/head_second.css" />
+        <option value="$PROJECT_DIR$/public/css/statistic.css" />
+        <option value="$PROJECT_DIR$/public/js/register_second.js" />
+        <option value="$PROJECT_DIR$/views/register_second.ejs" />
+        <option value="$PROJECT_DIR$/public/js/head.js" />
+        <option value="$PROJECT_DIR$/views/userinfo.ejs" />
+        <option value="$PROJECT_DIR$/public/css/userinfo.css" />
+        <option value="$PROJECT_DIR$/public/js/userinfo.js" />
+        <option value="$PROJECT_DIR$/routes/excel_parser.js" />
+        <option value="$PROJECT_DIR$/public/js/statistic.js" />
+        <option value="$PROJECT_DIR$/routes/statis_router.js" />
+        <option value="$PROJECT_DIR$/views/recorde_add.ejs" />
+        <option value="$PROJECT_DIR$/public/css/head_dyna.css" />
+        <option value="$PROJECT_DIR$/test/yuansheng_sele.html" />
+        <option value="$USER_HOME$/Desktop/注册/register.css" />
+        <option value="$USER_HOME$/Desktop/注册/Register.html" />
+        <option value="$PROJECT_DIR$/test/baobao_waterfall.js" />
+        <option value="$USER_HOME$/Desktop/简历文件夹/waterfall.js" />
+        <option value="$PROJECT_DIR$/test/first_and_child.html" />
+        <option value="E:/BaiduYunDownload/7.JavaScript全套视频课程 问题解答视频/【IT教程网】妙味课堂-视频问题解答-百叶窗效果/妙味课堂-视频问题解答-百叶窗效果/move.js" />
+        <option value="$PROJECT_DIR$/public/js/recorder_add.js" />
+        <option value="F:/来自宝宝/jqrc_wx_test/css/login_style.css" />
+        <option value="F:/来自宝宝/222/jqrc_wx_test/find_pwd.html" />
+        <option value="F:/来自宝宝/222/jqrc_wx_test/css/login_style.css" />
+        <option value="$PROJECT_DIR$/routes/make_excel.js" />
+        <option value="$PROJECT_DIR$/public/css/recorde_add.css" />
+        <option value="$PROJECT_DIR$/views/login_second.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mygreduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="D:\Program Files\nodejs\node.exe" />
+    <property name="javascript.nodejs.core.library.configured.version" value="4.4.7" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mygreduate\public\js" />
+      <recent name="E:\mygreduate\test" />
+      <recent name="E:\mygreduate\public" />
+      <recent name="E:\mygreduate\public\css" />
+      <recent name="E:\mygreduate\public\picture" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration default="false" name="array_ob_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="array_ob_test.js" working-dir="$PROJECT_DIR$/test">
+      <method />
+    </configuration>
+    <configuration default="false" name="excel_parser.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="excel_parser.js" working-dir="$PROJECT_DIR$/test">
+      <method />
+    </configuration>
+    <configuration default="false" name="and_juge_eq.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="and_juge_eq.js" working-dir="$PROJECT_DIR$/test">
+      <method />
+    </configuration>
+    <configuration default="false" name="excel_parser.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="excel_parser.js" working-dir="$PROJECT_DIR$/routes">
+      <method />
+    </configuration>
+    <configuration default="false" name="make_excel.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="make_excel.js" working-dir="$PROJECT_DIR$/routes">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.array_ob_test.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.excel_parser.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.and_juge_eq.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.excel_parser.js (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.make_excel.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.make_excel.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.excel_parser.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.and_juge_eq.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.excel_parser.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.array_ob_test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fef385b5-523c-4389-8972-4d71ee54295c" name="Default" comment="" />
+      <created>1470843352916</created>
+      <option name="number" value="Default" />
+      <updated>1470843352916</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5401575" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/record_add_router.js</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/statis_router.js</url>
+          <line>216</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/recorder_add.js</url>
+          <line>101</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/userinfo.js</url>
+          <line>83</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/water_fall.js</url>
+          <line>147</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/recorder_add.js</url>
+          <line>173</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/recorde_add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15087041">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/record_add_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4266667">
+          <caret line="157" column="3" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+            <element signature="e#438#1094#0" expanded="false" />
+            <element signature="e#615#742#0" expanded="false" />
+            <element signature="e#874#1089#0" expanded="false" />
+            <element signature="e#1168#1718#0" expanded="false" />
+            <element signature="e#1795#2327#0" expanded="false" />
+            <element signature="e#2403#2756#0" expanded="false" />
+            <element signature="e#2832#3253#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/d3_test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1821366">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97652584">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5835141">
+          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/recordQuery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/recorde_add_dyna.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.428572">
+          <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/select_bueatify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2579439">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/register_second.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40898877">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/statistic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3141487">
+          <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/register_second.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3541666">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register_second.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35730338">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/userinfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8580858">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!block;n#pwd_update#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userinfo.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0910683">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/userinfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1821366">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/excel_parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33211678">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/parser_by_formi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.09489051">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84653467">
+          <caret line="416" column="0" selection-start-line="416" selection-start-column="0" selection-end-line="416" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/statistic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27062705">
+          <caret line="564" column="39" selection-start-line="564" selection-start-column="39" selection-end-line="564" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/recorde_add.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1383538">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3642732">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39933994">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/head.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04553415">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/jquery-3.1.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/first_and_child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5936953">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/简历文件夹/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04290429">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/water_fall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04290429">
+          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!block;n#append#0;n#append#0;n#!!block;n#water_fall#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#insert_to_table#0;n#insert_to_table#0;n#!!block;n#water_fall#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#scroll#0;n#scroll#0;n#!!block;n#water_fall#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#create#0;n#create#0;n#!!block;n#water_fall#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/yuansheng_sele.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04553415">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/7.JavaScript全套视频课程 问题解答视频/【IT教程网】妙味课堂-视频问题解答-百叶窗效果/妙味课堂-视频问题解答-百叶窗效果/move.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7293729">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/7.JavaScript全套视频课程 问题解答视频/【IT教程网】妙味课堂-视频问题解答-百叶窗效果/妙味课堂-视频问题解答-百叶窗效果/妙味官网百叶窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2784588">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/recordQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/recorder_add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37458745">
+          <caret line="154" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#3702#0" expanded="false" />
+            <element signature="e#2217#2406#0" expanded="false" />
+            <element signature="e#2971#3628#0" expanded="false" />
+            <element signature="n#!!block;n#add_animation_off#0" expanded="false" />
+            <element signature="n#!!block;n#multi_sub#0" expanded="false" />
+            <element signature="n#!!block;n#recorde_fast#0" expanded="false" />
+            <element signature="e#5886#6137#0" expanded="false" />
+            <element signature="n#!!block;n#modle_add#0" expanded="false" />
+            <element signature="n#!!block;n#add_mudle_on#0" expanded="false" />
+            <element signature="e#7882#8191#0" expanded="false" />
+            <element signature="n#!!block;n#module_init#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04290429">
+          <caret line="96" column="36" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/head_dyna.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04553415">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/来自宝宝/jqrc_wx_test/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04553415">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/来自宝宝/jqrc_wx_test/css/login_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3642732">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/来自宝宝/jqrc_wx_test/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04553415">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/来自宝宝/222/jqrc_wx_test/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/来自宝宝/222/jqrc_wx_test/css/login_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7127846">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/来自宝宝/222/jqrc_wx_test/find_pwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04553415">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/head_second.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/recorde_add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-139.65715">
+          <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/make_excel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05327869">
+          <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/statis_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="18" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="18" />
+          <folding>
+            <element signature="e#483#719#0" expanded="false" />
+            <element signature="e#811#963#0" expanded="false" />
+            <element signature="e#1053#1923#0" expanded="false" />
+            <element signature="e#2017#2805#0" expanded="false" />
+            <element signature="e#2950#3059#0" expanded="false" />
+            <element signature="e#3159#3288#0" expanded="false" />
+            <element signature="e#3820#4278#0" expanded="false" />
+            <element signature="e#4385#5337#0" expanded="false" />
+            <element signature="n#!!block;n#sele_byyear#0" expanded="false" />
+            <element signature="n#!!block;n#sele_byyear_and_income#0" expanded="false" />
+            <element signature="n#!!block;n#sele_bymonth#0" expanded="false" />
+            <element signature="n#!!block;n#sele_bymonth_and_income#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/head_second.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9428573">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/respond.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/html5shiv.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login_second.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.508772">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

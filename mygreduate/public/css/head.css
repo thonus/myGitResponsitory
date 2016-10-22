@@ -1,0 +1,184 @@
+@media screen and (max-width: 767px) {
+
+    /*手机屏幕越小，根字体越小.........为何这个样式不加载,上面的样式都加载了*/
+    html {
+        /* 767px往后是每减少100像素2px减少 */
+        font-size: calc(16px - 1.5 * (767px - 100vw) / 100);
+    }
+
+}
+
+@media screen and (min-width: 1060px) {
+    html {
+        /* 1000px往后是每100像素2px增加 */
+        font-size: calc(16px + 2 * (100vw - 1060px) / 100);
+    }
+
+}
+/*and(min-width:767px)*  767到1060，字体不变*/
+@media screen and (min-width: 767px) and (max-width: 1060px){
+
+    html {
+
+        font-size: 16px;
+
+    }
+
+}
+
+
+
+html{
+    /*font-size: 16px!important;*/
+}
+
+body{
+
+    margin: 0px 0px;
+    padding: 0px 0px!important;
+    text-align: center;
+    background-color:#1abc9c ;
+    /*border-top: 1px solid;*/
+
+    min-height: 100vh;
+    /*动画需要溢出隐藏......不行，这样会影响其他样式*/
+    /*overflow: hidden;*/
+    color: #190e0c;
+}
+
+header{
+    /*height: 5rem;*/
+    /*line-height: 5rem;*/
+    width: 100%;
+    background-color: #107360;
+    text-align: right;
+    position: static;
+
+    /*去掉bootstrap带来的margin*/
+    margin: 0px 0px!important;
+}
+
+header >img{
+    width: auto;
+    height: 5.125rem;
+    /*position: absolute;*/
+    /*left:0rem;*/
+    float: left;
+}
+
+/*显示用户名的button的样式*/
+.user{
+    display: inline-block;
+    position: relative;
+    /*padding-right: 0.625rem;*/
+    width: 5rem;
+    height: 5rem;
+
+    line-height: 0rem;
+    text-align:center;
+    background-color: #00B7FF;
+    color: inherit;
+    font-weight:bold;
+
+    cursor: pointer;
+    border-radius: 50%;
+    /*border: 1px solid red;*/
+    padding:0px 0px;
+    margin: 0px 0px;
+
+}
+/*设置nav下的img的样式*/
+.user>#img_wra>img{
+    width: auto;
+    height:100%;
+    /*border-radius: 50%;*/
+
+}
+
+
+/*设置nav下的aside的样式，这个aside用来做动画的父模块，也是做相对点*/
+nav>.rela_aside{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    /*background-color: pink;*/
+    top: 50%;
+    left: 50%;
+    /*background-color: #ecf0f1;*/
+
+}
+
+/*跳到记账界面的导航,三个导航*/
+nav>.rela_aside>.reco_add,.to_statistic,.to_userinfo{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    left: -9.5rem;
+    top: -1.5rem;
+    background-color: purple;
+    z-index: 1;
+    background-color: #ecf0f1;
+    border-radius: 50%;
+    /**去掉空格*/
+    white-space: nowrap;
+    /*行高设置为零q清除bootstrap给所有元素（为了清除浮动）前后添加为元素带来的空格（这里是换行）*/
+    line-height: 0px;
+}
+
+/*三个导航中的图标的样式*/
+nav>.rela_aside>.reco_add>img,.to_statistic>img,.to_userinfo>img{
+    width: 100%;
+    height:auto;
+}
+
+/*页面加载初始化，旋转所有的导航-180度，全部看不到*/
+/*初始旋转位置*/
+nav>.rela_aside>.reco_add{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform-origin: 9.5rem 1.5rem;
+    -webkit-transform-origin: 9.5rem 1.5rem;
+}
+
+/*跳到数据统计页面的导航的样式*/
+.to_statistic{
+    /*逆时针旋转45度*/
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform-origin: 9.5rem 1.5rem;
+    -webkit-transform-origin: 9.5rem 1.5rem;
+
+}
+
+/*跳到用户详情的动画*/
+.to_userinfo{
+    /*逆时针旋转90度*/
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform-origin: 9.5rem 1.5rem;
+    -webkit-transform-origin: 9.5rem 1.5rem;
+
+}
+/*头像包裹层的样式*/
+#img_wra{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+overflow: hidden;
+}
+
+/*退出登录的图标的样式*/
+
+nav>#out_img{
+    position: absolute;
+   bottom: -10px;
+
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../picture/logo_icon.gif" rel="icon" />
+		<title>消费统计</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<link href="../css/statistic.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+		<script src="../js/bootstrap.min.js"></script>
+	    <!--导入瀑布流对象-->
+		<script src="../js/water_fall.js"></script>
+		<script src="../js/statistic.js"></script>
+		<script src="../js/tips.js" type="text/javascript"></script>
+		<script src="../js/d3.min.js"></script>
+	</head>
+	<body class="container-fluid">
+		<%-
+		include head_second.ejs
+		%>
+		<div class="wrap col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+			<nav class="staNav row">
+				<div  class="staByYear col-xs-3  col-sm-3  col-md-3  col-lg-3 ">
+					年统计</div>
+				<div class="staByMonth col-xs-3  col-sm-3  col-md-3  col-lg-3 ">
+					月统计</div>
+				<div class="staPredict col-xs-3 col-sm-3 col-md-3 col-lg-3 ">导出</div>
+			</nav>
+			
+			<section class="staSection">
+				<svg>
+
+				</svg>
+			</section>
+
+			<!--用来展示记录的-->
+			<section class="record_section">
+				<table style="position:static">
+					<tr>
+						<td>类型</td>
+						<td>时间</td>
+						<td>金额</td>
+
+					</tr>
+				</table>
+
+
+			</section>
+
+			<div class="create_tips">
+				<p class="p_f"></p>
+				<p></p>
+			</div>
+
+		</div>
+	</body>
+</html>

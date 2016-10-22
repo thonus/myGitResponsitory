@@ -1,0 +1,428 @@
+@media screen and (max-width: 767px) {
+	/*手机视图*/
+	nav{
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+	}
+
+	section{
+		/*margin-left: 0px!important;*/
+		margin-right: 0px!important;
+	}
+
+	/*手机屏幕越小，根字体越小.........为何这个样式不加载,上面的样式都加载了*/
+	html {
+		/* 767px往后是每减少100像素2px减少 */
+		font-size: calc(16px - 1.5 * (767px - 100vw) / 100);
+	}
+	/*手机显示的时候，加上圆角*/
+	nav > button{
+		border-radius: 1rem;
+	}
+    /*手机视图组成框框的元div的margin*/
+	.formDiv{
+        margin: 9rem 0px !important;
+	}
+
+	/*手机视图的自定义的li的样式*/
+	.moudleLi{
+		height: 12rem!important;
+		font-size: 3rem!important;
+
+
+	}
+	/*手机视图的ul的高度，设置为可以放下，三个li的高度*/
+	.moudleUl{
+		height: 36rem!important;
+
+	}
+
+	/*手机视图的模板记账的退出按钮的样式*/
+	.moudle_exit{
+		right: 2rem!important;
+		top: 42rem!important;
+		
+	}
+
+
+}
+
+@media screen and (min-width: 1060px) {
+	html {
+		/* 1000px往后是每100像素2px增加 */
+		font-size: calc(16px + 2 * (100vw - 1060px) / 100);
+	}
+
+}
+/*and(min-width:767px)*  767到1060，字体不变*/
+@media screen and (min-width: 767px) and (max-width: 1060px){
+
+	html {
+
+		font-size: 16px;
+
+	}
+
+}
+
+
+
+html{
+	/*font-size: 16px!important;*/
+}
+
+body{
+
+	margin: 0px 0px;
+	padding: 0px 0px!important;
+	text-align: center;
+	/*background-color:#1abc9c ;*/
+
+	/*底色变为渐变试一下*/
+	background: -moz-linear-gradient(top,#107360,#a9d8f6);
+	background: -webkit-linear-gradient(top,#107360,#a9d8f6);
+	background: linear-gradient(top,#107360,#a9d8f6);
+	/*这个是兼容ie11的写法*/
+	background: -ms-linear-gradient(top,#107360,#a9d8f6);
+	/*兼容ie的渐变*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#107360', endColorstr='#a9d8f6',GradientType=0 );
+	border-top: 1px solid;
+}
+/*兼容ie9的渐变*/
+:root .gradient{filter:none;}
+
+header{
+	/*height: 5rem;*/
+	/*line-height: 5rem;*/
+	width: 100%;
+	background-color: #107360;
+	text-align: right;
+	position: static;
+
+	/*去掉bootstrap带来的margin*/
+    margin: 0px 0px!important;
+}
+
+header >img{
+	width: auto;
+	height: 5.125rem;
+	/*position: absolute;*/
+	/*left:0rem;*/
+	float: left;
+}
+
+/*!*显示用户名的button的样式*!*/
+/*.user{*/
+	/*display: inline-block;*/
+
+	/*!*padding-right: 0.625rem;*!*/
+	/*width: 5rem;*/
+	/*height: 5rem;*/
+	/*border-radius: 2.5rem;*/
+	/*border: 0px ;*/
+	/*padding:0px 0px;*/
+/*}*/
+
+nav{
+	
+	width: 28.125rem;
+	height: 28.125rem;
+	/*background-color: grey;*/
+	margin: 2.5rem auto ;
+	/*在手机端显示的时候设置margin值*/
+	/*margin-left: 0px!important;*/
+	/*margin-right: 0px!important;*/
+
+
+}
+
+/*nav里面的三个button的样式*/
+nav button{
+
+	/*box-sizing: border-box;*/
+    /*margin: 0.625rem 0.625rem;*/
+	margin: 0.625rem 0rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+
+/*上边button的样式*/
+.top{
+	/*width: 12.5rem;*/
+	height: 12.5rem;
+	background-color: #16a085;
+	border: 0px;
+}
+/**/
+
+
+
+/*下边的button的样式*/
+.bottom{
+	/*width: 25rem;*/
+	height: 12.5rem;
+	background-color: #16a085;
+	border: 0px;
+	
+}
+
+.top:hover,.bottom:hover{
+	background-color: #107360;
+}
+
+
+
+/*定义section的样式*/
+section{
+	position: fixed;
+	margin: 0px 0px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*min-width: 26.25rem;*/
+	height: 100%;
+	/*background-color: #107360;*/
+	/*颜色变为渐变试一下*/
+	background: -moz-linear-gradient(top,#107360,#a9d8f6);
+	background: -webkit-linear-gradient(top,#107360,#a9d8f6);
+	/*这个是兼容ie11的写法*/
+	background: -ms-linear-gradient(top,#107360,#a9d8f6);
+	/*兼容ie的渐变*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#107360', endColorstr='#a9d8f6',GradientType=0 );
+	visibility: hidden;
+
+	overflow: auto;
+	/*z-index: 1;*/
+    margin-left: 0px!important;
+	margin-right: 0px!important;
+	
+}
+
+/*定义section里面的div的样式*/
+.wrap{
+	
+	/*触发bfc为了不产生margin重叠(和第一个子元素产生的)*/
+	/*overflow: hidden;*/
+	/*width: 25rem;*/
+	/*height: 31.25rem;*/
+	/*background-color: #0a90ed;*/
+	/*使用相近的安全色试一下*/
+
+	/*background-color:#339966;*/
+	background-color:#16a085;
+	/*margin: 5rem auto 2.5rem ;*/
+	border-radius: 0.25rem;
+
+	position: relative;
+
+	/*为了这个div上不顶天，所以要设置margintop*/
+	margin-top: 1rem;
+	
+}
+
+/*消费类型矿洞额样式，，，这个的高度不能只用行高和margin值来修改，因为间距太大，
+字体太小的时候不美观*/
+.formDiv{
+	
+	/*height: 2.5rem;*/
+	/*line-height: 2.5rem;*/
+	font-size: 2rem;
+	/*background-color: brown;*/
+	margin: 3rem 0px ;
+	/*border: 1px solid red;*/
+}
+
+/*下拉选项的样式*/
+.selectType{
+	
+	width: 60%;
+
+	
+}
+/*选项的样式*/
+.selectType option{
+	background-color: royalblue;
+	
+}
+
+/*金额输入框的样式*/
+.inputMoney{
+	width: 60%;
+	height: 60%;
+}
+/*确认按钮的样式*/
+.sub{
+	height: 80%;
+	width: 12.5rem;
+	background-color: #107360;
+	border: 0px;
+	font-weight: bold;
+	border-radius: 0.25rem;
+	/*先注销试一下*/
+	/*font-size: 1.25rem;*/
+	letter-spacing: 0.3125rem;
+	
+}
+
+
+
+
+/*退出div的样式*/
+.exitDiv{
+	
+	position: absolute;
+	width: 2.8125rem;
+	height: 2.8125rem;
+	/*background-color: grey;*/
+	/*background-image: url(../picture/exit.gif);*/
+	cursor: pointer;
+	top: 1.25rem;
+	right: 1.25rem;
+}
+
+/*图片的样式*/
+.exitDiv > img{
+	width: auto;
+	height:100%;
+}
+
+
+/*新建模型的样式*/
+.newMoudle{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	background-color: grey;
+	cursor: pointer;
+	top: 6.25rem;
+	right: 1.25rem;
+}
+
+/*装模板的div的样式*/
+.moudleDiv{
+	
+	width: 100%;
+	height: 70%;
+	background-color: grey;
+}
+
+/*模板的样式*/
+.moudleUl{
+	width: 100%;
+	height: 13rem;
+	text-align: center;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.moudleLi{
+	/*display: inline-block;*/
+	/*width: 40%;*/
+	/*width: 9.375rem;*/
+	/*height: 28%;*/
+	height: 6rem;
+	font-size: 1.5rem;
+	/*margin: 0.3125rem 0px;*/
+	background-color: #336633;
+	border: 0.125rem solid #16a085;
+	list-style-type: none;
+	border-radius: 20%;
+	color: white;
+
+	/*设置静态定位，为了删除小图标能在右上角*/
+	position: relative;
+
+	
+}
+
+/*给aside添加样式*/
+aside{
+	height: 12rem;
+	width: 22rem;
+
+
+	position: fixed;
+	line-height: 3rem;
+	font-size: 2rem;
+	text-align: center;
+
+    left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;
+    margin: auto;
+	/*border: 1px solid black;*/
+
+    display: none;
+
+}
+
+/*aside下面的button的样式*/
+aside >input[type='button'],aside >input[type='text']{
+	width: 21rem;
+}
+
+/*用来做aside的遮羞布*/
+article{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #4c7645;
+	opacity: 0.3;
+	display: none;
+}
+
+
+/*给add_li的li提供它单独的样式图片？？？？*/
+#add_li>img{
+	width: auto;
+	height: 100%;
+	text-decoration: none;
+}
+
+/*删除小标签的样式*/
+.delete_png{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 20%;
+	height: auto;
+	display: none;
+	cursor: pointer;
+
+}
+
+/*上传Excel表格的img图片*/
+/*#excel_input_img{*/
+	/*height: auto;*/
+	/*width: 4rem;*/
+	/*cursor: pointer;*/
+/*}*/
+
+.formDiv>i{
+	font-size: 1.25rem;
+	cursor: pointer;
+
+}
+
+/*退出的section的样式*/
+.exit_section{
+	text-align: right;
+	margin: 1rem 0px;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+
+footer{
+	height: 3.75rem;
+	background-color: #107360;
+	clear: both;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息页面</title>
+    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/userinfo.css"/>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/userinfo.js"></script>
+
+
+</head>
+<body>
+<%-
+include head_second.ejs
+%>
+
+    <article class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+        <!--<img src="/picture/up_pic.gif"/><br/>-->
+        <span>
+            <img src="/picture/up_pic.gif"/>
+            <a><i class="icon-camera"></i></a>
+        </span><br/>
+        <!--<span>修改头像</span><br/>-->
+        <input type="password" placeholder="原始密码"/><br/>
+        <input type="password" placeholder="修改后的密码"/><br/>
+        <input type="password" placeholder="再输入一次"/><br/>
+        <input type="button" value="确认修改"/><br/>
+
+
+    </article>
+<form action="/userinfo/head_change" method="post" enctype="multipart/form-data">
+    <input id="head_up" type="file" name="head" accept="image/*" value="123"/>
+
+</form>
+    <!--<iframe>-->
+        <!--<form action="/userinfo/head_change" method="post" enctype="multipart/form-data">-->
+             <!--<input id="head_up" type="file" name="head" accept="image/png,image/gif" value="123"/>-->
+             <!--<input type="text"/>-->
+        <!--</form>-->
+    <!--</iframe>-->
+
+
+
+</body>
+</html>

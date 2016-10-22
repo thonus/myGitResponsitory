@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" >
+     <meta charset="utf-8"/>
+    <!--外联样式,引用less文件-->
+    <link rel="stylesheet/less" type="text/css" href="/stylesheets/less/main.less">
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+
+    <!--内联样式,需要改 type="text/less"-->
+    <style type="text/less">
+        .boxShadow(@x:0,@y:0,@blur:1px,@color:#000){
+            -moz-box-shadow: @arguments;
+            -webkit-box-shadow: @arguments;
+            box-shadow: @arguments;
+        }
+
+        #header {
+        .boxShadow(2px,2px,3px,#f36);
+        }
+        .boxshadow(@x:7px,@y:7px,@blur:7px,@colour:black){
+            -moz-box-shadow: @arguments;
+            -webkit-box-shadow: @arguments;
+            box-shadow: @arguments;
+
+
+        }
+    </style>
+
+    <!--引用less.js文件-->
+    <script src="/scripts/less.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+    <h2>less语法@arguments 变量。</h2>
+    <h3 class="boxshadow"> 这是我自定义的</h3>
+</div>
+</body>
+</html>

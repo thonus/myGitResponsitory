@@ -1,0 +1,46 @@
+/*定义尾部div*/
+.footer{
+
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+
+    margin: auto auto;
+    /*width: 25rem;*/
+    height: 3rem;
+    background-color: grey;
+    /*border: 1px solid green;*/
+
+    text-align: center;
+    background-color: #c6c6c6;
+
+
+    /*border-radius: ;*/
+
+}
+
+.footer span,.footer span a{
+    color: white;
+    font-size: 0.875rem;
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*让row中的inline-block元素水平居中*/
+.row_mid{
+    height: 100%;
+    /*min-width: 830px;*/
+    margin: 0px 0px;
+
+}

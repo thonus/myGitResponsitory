@@ -1,0 +1,81 @@
+body{
+    background: -moz-linear-gradient(top,#107360,#a9d8f6);
+    background: -webkit-linear-gradient(top,#107360,#a9d8f6);
+}
+
+article{
+    /*background-color: #4cae4c;*/
+
+    text-align: center;
+}
+
+article>span>img{
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+/*设置存放图片的span的样式*/
+article>span{
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+/*遮罩层a的样式*/
+article>span>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.8);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 9rem;
+    text-decoration: none!important;
+    vertical-align: baseline;
+    display: none;
+
+}
+
+/*定义字体图标的样式*/
+article>span>a>i{
+    font-size: 3rem;
+    opacity: 1!important;
+
+}
+
+/*给span添加伪元素，实现一个相机覆盖图片的效果*/
+article>span:hover a{
+    display: inline-block;
+    color: white;
+}
+
+
+iframe{
+    /*display: none;*/
+    line-height: 1rem;
+}
+
+/*隐藏form表单*/
+form{
+    display: none;
+}
+
+/*设置这些input的样式*/
+article>input[type="password"],article>input[type="button"]{
+    width: 80%;
+    margin-top: 2px;
+    font-size: 2rem;
+
+}
+
+
+
+

@@ -1,0 +1,53 @@
+.wrap{
+	width: 800px;
+	min-height: 600px;
+	background-color: grey;
+	margin: 0px auto;
+}
+
+.wrap header{
+	
+	height: 60px;
+	line-height: 60px;
+	background-color: brown;
+	text-align: center;
+}
+
+
+.wrap ul{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.wrap ul li{
+	height: 60px;
+	line-height: 60px;
+	background-color: brown;
+	text-align: center;
+	list-style: none;
+}
+
+
+/*时间*/
+.spanDate{
+	display: inline-block;
+	height: 100%;
+	width: 30%;
+	background-color: deepskyblue;
+}
+
+/*类型*/
+.spanType{
+	display: inline-block;
+	height: 100%;
+	width: 30%;
+	background-color: deepskyblue;
+}
+
+/*金额*/
+.spanMoney{
+	display: inline-block;
+	height: 100%;
+	width: 30%;
+	background-color: deepskyblue;
+}

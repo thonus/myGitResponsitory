@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象点names属性的测试</title>
+    <script>
+        window.onload=function(){
+
+            var func=function(){
+
+
+                return function (){
+
+                }
+
+
+            }
+
+            func.age="20";
+            console.log(func);
+
+            var array=func();
+
+            console.log(typeof array);
+            console.log(array);
+
+            console.log("---------------------");
+
+            array.age=40;
+            console.log(typeof array);
+            console.log(array);
+            console.log(func);
+
+            var a=function(){};
+            a.name="tom";
+            a.age=10;
+            console.log(typeof a);
+            var b=a;
+            console.log(b);
+            b.sex="man";
+            console.log(b);
+            console.log(a);
+
+            var boj={age:90,school:"shaoguan"};
+            boj.name="tom";
+            console.log(boj);
+            console.log(a.age);
+            console.log(a.name);
+            console.log(boj.name);
+
+
+
+
+
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+</body>
+</html>

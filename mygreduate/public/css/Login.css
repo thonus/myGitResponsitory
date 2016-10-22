@@ -1,0 +1,350 @@
+html{
+	/*height: 100%;*/
+	/*height: 100%;*/
+	/*position: relative;*/
+    /*min-height: 552px;*/
+	/*border: 1px solid black;*/
+	font-size: 16px;
+	/*这句很关键，如果不设置这个html的overflow，其子元素body的overflow会失效，我也不知道为什么*/
+	overflow: hidden;
+}
+@media screen and (min-width: 1000px) {
+	html {
+		/* 1000px往后是每100像素1px增加 */
+		font-size: calc(16px + 1 * (100vw - 1000px) / 100);
+	}
+
+}
+
+/*!*给宽屏手机（横屏）定义高度根字体*!*/
+/*@media screen and (min-width: 768px) and (max-width: 767px){*/
+
+	/*html {*/
+		/*!* 390px往后是每100像素2px增加 *!*/
+		/*font-size: calc(16px + 1 * (100vw - 390px) / 100);*/
+	/*}*/
+
+/*}*/
+
+/*平板电脑竖屏的时候，宽远小于高所以要设置这段的font-size,让登录框的高大于宽*/
+@media screen and (min-width: 390px) and (max-width: 991px){
+
+	html {
+		/* 390px往后是每100像素2px增加 */
+		font-size: calc(25px + 2 * (100vw - 390px) / 100);
+	}
+
+}
+
+
+body{
+	/*去掉右边和左边的框*/
+	/*position: absolute;*/
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	/*height: 100%;*/
+	height: 100vh;
+	font-size: 0.875rem;;
+	margin: 0px 0px !important;
+	padding: 0px 0px !important;
+	
+	/*background-color: brown;*/
+	/*border: 1px solid red;*/
+	
+}
+
+/*这个绝对定位的元素用来放背景图，其宽高适应body*/
+.layBg{
+
+	position: absolute;
+
+	overflow: hidden;
+   
+    /*margin: auto auto;*/
+    
+    width: 100%;	
+    height: 100%;
+    z-index: -1;
+	margin: 0px 0px !important;
+    
+    /*min-width: 800px;
+    min-height: 500px;*/
+}
+
+/*设置背景图的样式*/
+.layBg img{
+	display: block;
+	/*这里fixed比absolute要好，因为body要在滚动的时候，图片不产生位移，所以这个img必须不是body的子孙元素*/
+	position: fixed;
+	/*width: 100%;
+	height: 100%;*/
+	padding: 0px 0px !important;
+	
+}
+.imgLogoDiv{
+	width: 70%;
+	height: 70%;
+}
+
+/*定义logo的样式*/
+.imgLogo{
+	display: block;
+	width: 8.75rem;
+	height: 4.375rem;
+}
+
+
+
+
+/*包裹wrap和footer的div*/
+.wrapAll{
+     overflow: hidden;
+    /*display: block !important;*/
+	/*想让它居中,绝对定位（还是相对定位下的）中的居中*/
+	/*top: 0px;*/
+	/*bottom: 0px;*/
+	/*left: 0px;*/
+	/*right: 0px;*/
+
+	/*去padding*/
+    padding: 0px 0px !important;
+	/*margin: 0px 0px;*/
+	position: relative !important;
+	/*min-width: 830px !important;*/
+	/*width: 800px;*/
+	height: 100%;
+	min-height: 30.125rem;
+	/*background-color: cornflowerblue;*/
+	/*opacity: 0.3;*/
+	
+	
+}
+
+
+/*定义中间包裹logo和登录框的div*/
+.wrap{
+	
+	/*border-top: 1px solid red;*/
+	/*padding-top: 1px;*/
+	
+	/*position: absolute;*/
+	/*width: 800px;*/
+	/*height: 400px;*/
+
+}
+
+/*定义logo的样式*/
+.logo{
+	
+	margin-top:3.125rem;
+	margin-left: 1.25rem;
+	
+	width: 12.5rem;
+	/*height: 100px;*/
+	/*background-color: grey;*/
+	
+}
+
+/*定义logo下面的文字的样式*/
+.logo span{
+	color: white;
+	margin-left: 0.625rem;
+
+    letter-spacing: 0.125rem;
+}
+
+/*定义login框的样式，这个样式和 col的样式冲突怎么办*/
+.login{
+	/*下面三个，在边显示的效果用bootstrap的栅格系统做*/
+    /*position: absolute;*/
+    /*right: 0px;*/
+    /*bottom: 0px;*/
+    
+	/*width: 350px;*/
+
+	/*清除bootstrap带来的padding*/
+	padding: 0px 0px;
+	/*height: 300px;*/
+	background-color: white;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	border-radius: 0.25rem;
+	
+}
+
+/*登录框输入动画的div的样式*/
+.dynaticImg{
+	width: 60%;
+	height: 5rem;
+	margin: 0px auto;
+	/*background-color: red;*/
+	
+}
+
+/*定义输入错误提示框的样式*/
+.divTips{
+	
+   	width: 70%;
+   	height: 1.25rem;
+   	line-height: 1.25rem;
+   	font-size: 0.75rem;
+   	margin: 0px auto;
+   	/*background-color: blue;*/
+   	text-align: center;
+	
+}
+/*定义提示的icon的样式 这种雪碧切图似乎不能使用rem，因为图标变大的话，雪碧切图作为背景并不会变  */
+.tipIcon{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+	background-image: url(../picture/login_icon.png);
+	background-position:0px -163px ;
+	display: none;
+	
+}
+ 
+/*错误提示文字消息的样式*/
+.tipText{
+	vertical-align: middle;
+    font-size: 0.75rem;
+    color: red;	
+}
+
+/*定义账号，密码，和按钮的包裹层的样式*/
+.divInput{
+	width: 70%;
+	/*background-color: grey;*/
+	margin: 0px auto;
+	
+}
+
+/*包含输入框最小的div样式*/
+.divOneInput{
+	width: 100%;
+	height: 3.125rem;
+	/*background-color: brown;*/
+	position: relative;
+	
+}
+
+/*文本输入框提示*/
+/*.acountTips{*/
+	/*position: absolute;*/
+	/*left: 6px;*/
+	/*top: 6px;*/
+	/*pointer-events: none;*/
+	/*color: #aaa;*/
+	/*font-size: 14px;*/
+/*}*/
+
+
+/*定义输入框的样式*/
+.inputText{
+	
+	
+	width: calc(100% - 0.375rem);
+	height: 1.875rem;
+}
+
+/*定义X清除账号输入的图标的样式,雪碧切图的大小的背景位置不要用相对单位*/
+.deIcon{
+	width: 21px;
+	height: 21px;
+	background-image: url(../picture/login_icon.png);
+	background-position:-116px -116px;
+	position: absolute;
+	top: 0.375rem;
+	left: 13.625rem;
+}
+
+/*登录按钮的样式*/
+.btnSub{
+	
+	display:block;
+	margin: 0px auto;
+	width: 100%;
+	height: 2.5rem;
+	font-size: 1.0625rem;
+	color: white;
+	background-color: #24a04a;
+	border: 0px;
+	padding: 0px;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	
+}
+
+/*登录框右下角的链接的样式*/
+.spanBo{
+	display: block;
+	text-align: right;
+	/*position: absolute;*/
+	bottom: 0px;
+	right: 0px;
+	margin-top: 0.625rem;
+	margin-right: 0.625rem;
+	margin-bottom: 0.625rem;
+	font-size: 0.8125rem;
+	color: #666;
+}
+
+/*定义右下角连接的样式*/
+.spanBo a{
+	color: #666;
+	text-decoration: none;
+}
+
+/*给a添加伪类*/
+.spanBo a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+/*定义尾部div*/
+.footer{
+	
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+
+
+	margin: auto auto;
+	/*width: 25rem;*/
+	height: 3rem;
+	/*background-color: grey;*/
+	/*border: 1px solid green;*/
+	
+	text-align: center;
+	
+}
+
+.footer span,.footer span a{
+	color: white;
+	font-size: 0.875rem;
+         
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/*让row中的inline-block元素水平居中*/
+.row_mid{
+     height: 100%;
+	/*min-width: 830px;*/
+	margin: 0px 0px;
+
+}
+

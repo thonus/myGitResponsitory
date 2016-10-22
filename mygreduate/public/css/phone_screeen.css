@@ -1,0 +1,297 @@
+html{
+    /*height: 100%;*/
+    height: 100%;
+    position: relative;
+    /*min-height: 552px;*/
+    /*border: 1px solid black;*/
+
+    /*这句很关键，如果不设置这个html的overflow，其子元素body的overflow会失效，我也不知道为什么*/
+    overflow: hidden;
+}
+
+
+
+body{
+    /*去掉右边和左边的框*/
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+
+
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+    /*background-color: brown;*/
+    /*border: 1px solid red;*/
+
+}
+
+/*这个绝对定位的元素用来放背景图，其宽高适应body*/
+.layBg{
+
+    position: absolute;
+
+    overflow: hidden;
+
+    /*margin: auto auto;*/
+
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    /*min-width: 800px;
+    min-height: 500px;*/
+}
+
+/*设置背景图的样式*/
+.layBg img{
+    display: block;
+    /*这里fixed比absolute要好，因为body要在滚动的时候，图片不产生位移，所以这个img必须不是body的子孙元素*/
+    position: fixed;
+    /*width: 100%;
+    height: 100%;*/
+
+}
+.imgLogoDiv{
+    width: 70%;
+    height: 70%;
+}
+
+/*定义logo的样式*/
+.imgLogo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*包裹wrap和footer的div*/
+.wrapAll{
+
+    /*想让它居中*/
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto auto;
+    position: relative;
+
+    width: 800px;
+    height: 100%;
+    min-height: 482px;
+    /*background-color: cornflowerblue;*/
+    /*opacity: 0.3;*/
+
+
+}
+
+
+/*定义中间包裹logo和登录框的div*/
+.wrap{
+
+    /*border-top: 1px solid red;*/
+    /*padding-top: 1px;*/
+
+    position: absolute;
+    width: 800px;
+    height: 400px;
+
+}
+
+/*定义logo的样式*/
+.logo{
+
+    margin-top: 50px;
+    margin-left: 20px;
+
+    width: 200px;
+    height: 100px;
+    /*background-color: grey;*/
+
+}
+
+/*定义logo下面的文字的样式*/
+.logo span{
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+/*定义login框的样式*/
+.login{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius:4px ;
+
+}
+
+/*登录框输入动画的div的样式*/
+.dynaticImg{
+    width: 60%;
+    height: 80px;
+    margin: 0px auto;
+    /*background-color: red;*/
+
+}
+
+/*定义输入错误提示框的样式*/
+.divTips{
+
+    width: 70%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin: 0px auto;
+    /*background-color: blue;*/
+    text-align: center;
+
+}
+/*定义提示的icon的样式*/
+.tipIcon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    background-image: url(../picture/login_icon.png);
+    background-position:0px -163px ;
+
+}
+
+/*错误提示文字消息的样式*/
+.tipText{
+    vertical-align: middle;
+    font-size: 12px;
+    color: red;
+}
+
+/*定义账号，密码，和按钮的包裹层的样式*/
+.divInput{
+    width: 70%;
+    /*background-color: grey;*/
+    margin: 0px auto;
+
+}
+
+/*包含输入框最小的div样式*/
+.divOneInput{
+    width: 100%;
+    height: 50px;
+    /*background-color: brown;*/
+    position: relative;
+
+}
+
+/*文本输入框提示*/
+/*.acountTips{*/
+/*position: absolute;*/
+/*left: 6px;*/
+/*top: 6px;*/
+/*pointer-events: none;*/
+/*color: #aaa;*/
+/*font-size: 14px;*/
+/*}*/
+
+
+/*定义输入框的样式*/
+.inputText{
+
+
+    width: calc(100% - 6px);
+    height: 30px;
+}
+
+/*定义X清除账号输入的图标的样式*/
+.deIcon{
+    width: 21px;
+    height: 21px;
+    background-image: url(../picture/login_icon.png);
+    background-position:-116px -160px ;
+    position: absolute;
+    top: 6px;
+    left: 218px;
+}
+
+/*登录按钮的样式*/
+.btnSub{
+
+    display:block;
+    margin: 0px auto;
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: #ff3135;
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+/*登录框右下角的链接的样式*/
+.spanBo{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+/*定义右下角连接的样式*/
+.spanBo a{
+    color: #666;
+    text-decoration: none;
+}
+
+/*给a添加伪类*/
+.spanBo a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/*定义尾部div*/
+.footer{
+
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    margin: auto auto;
+    width: 800px;
+    height: 80px;
+    /*background-color: grey;*/
+    /*border: 1px solid green;*/
+
+    text-align: center;
+
+}
+
+.footer span,.footer span a{
+    color: white;
+    font-size: 14px;
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
